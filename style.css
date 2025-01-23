@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #efefef;
+    height: 250vh;
+    width: 80%;
+}
+
+h2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: #406163;
+    font-size: 2em;
+    left: 0.5em;
+}
+
+p {
+    color: #6c757d;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#searchBar {
+    width: 425px;
+    height: 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 0 0 0 7px;
+}
+
+#searchIcon {
+    font-size: 1.5em;
+    color: white;
+    background-color: #12b8a7;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 7px 0 0 0;
+    cursor: pointer;
+}
+
+.pokemon-container {
+    height: 400px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 50px 0 0 75px;
+}
+
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 430px;
+    height: 550px;
+    margin: -90px 0 0 434px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
+}
+
+h2 {
+    color: #49686a;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+hr {
+    border-color: #12b8a7;
+    background-color: #12b8a7;
+    width: 180px;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title-container {
+    margin: 0px 0px 40px 0px;
+}
+
+.stats {
+    margin-top: 30px;
+    display: flex;
+    gap: 70px;
+    color: #49686a;
+}
+
+.btn-transfer {
+    margin: 35px 0;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #9EDA93, #22CBA8);
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    min-width: 60%;
+    cursor: pointer;
+}
+
+.attributes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+/* .cp-text {
+    border-right: 1px solid #eee;
+    margin: 0;
+}
+
+.cp-text:last-child {
+    border: none;
+} */
+
+.player-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    text-align: center;
+}
